@@ -136,7 +136,7 @@ map sh <C-w>t<C-w>K
 map <LEADER><LEADER> <Esc>/<++><CR>:nohlsearch<CR>c4l
 map tx :r !figlet 
 
-call plug#begin('~/.config/nvim/plugged') 
+call plug#begin('$HOME/.config/nvim/plugged') 
 
 Plug 'vim-airline/vim-airline'
 "Theme
